@@ -9,11 +9,12 @@
 ~H
 # Command Line History (newest to oldest):
 :x!
-:set number
-:Set number
-:X!
-:s\
 :q!
+:set number
+:X!
+:Q!
+:Set number
+:s\
 
 # Search String History (newest to oldest):
 
@@ -24,30 +25,70 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	   pthread_attr_setdetachstate(&myAttr, PTHREAD_CREATE_JOINABLE);
 ""1	LINE	0
-	//#include <sys/types.h>
+	     //fclose(fp);d
 "2	LINE	0
-	    
+	     stringId = to_string(threadId);
 "3	LINE	0
 	
 "4	LINE	0
-	    getpid();
+	     fputs("\r\n", fp);
+"5	LINE	0
+	     fputs(stringId, fp);
+"6	LINE	0
+	#include <stdio.h>
+"7	LINE	0
+	   
+"8	LINE	0
+	   
+"9	LINE	0
+	   // call thread worker function
 "-	CHAR	0
 	)
 
 # File marks:
-'0  44  3  ~/test.c
-'1  9  10  ~/test.c
-'2  37  8  ~/test.c
-'3  6  18  ~/test.c
-'4  33  41  ~/test.c
-'5  32  11  ~/test.c
-'6  20  13  ~/test.c
-'7  28  30  ~/test.c
-'8  25  0  ~/test.c
-'9  1  0  ~/QUOTE.txt
+'0  53  32  ~/main.c
+'1  8  0  ~/QUOTE.txt
+'2  38  61  ~/main.c
+'3  25  106  ~/main.c
+'4  33  28  ~/main.c
+'5  57  49  ~/main.c
+'6  1  0  ~/QUOTE.txt
+'7  3  0  ~/QUOTE.txt
+'8  32  45  ~/main.c
+'9  37  17  ~/main.c
 
 # Jumplist (newest first):
+-'  53  32  ~/main.c
+-'  38  7  ~/main.c
+-'  8  0  ~/QUOTE.txt
+-'  25  5  ~/main.c
+-'  33  5  ~/main.c
+-'  57  4  ~/main.c
+-'  1  0  ~/QUOTE.txt
+-'  3  0  ~/QUOTE.txt
+-'  32  5  ~/main.c
+-'  37  5  ~/main.c
+-'  17  5  ~/main.c
+-'  7  0  ~/main.c
+-'  9  0  ~/main.c
+-'  20  6  ~/main.c
+-'  28  5  ~/main.c
+-'  98  3  ~/main.c
+-'  99  3  ~/main.c
+-'  95  2  ~/main.c
+-'  89  3  ~/main.c
+-'  91  7  ~/main.c
+-'  93  0  ~/main.c
+-'  90  3  ~/main.c
+-'  77  6  ~/main.c
+-'  68  3  ~/main.c
+-'  70  3  ~/main.c
+-'  78  0  ~/main.c
+-'  76  6  ~/main.c
+-'  1  0  ~/main.c
 -'  44  3  ~/test.c
 -'  9  0  ~/test.c
 -'  37  6  ~/test.c
@@ -59,7 +100,6 @@
 -'  28  4  ~/test.c
 -'  25  0  ~/test.c
 -'  3  0  ~/test.c
--'  1  0  ~/QUOTE.txt
 -'  23  4  ~/test.c
 -'  22  31  ~/test.c
 -'  24  4  ~/test.c
@@ -70,83 +110,154 @@
 -'  17  12  ~/test.c
 -'  21  11  ~/test.c
 -'  8  12  ~/test.c
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
 -'  5  12  ~/test.c
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
 -'  16  4  ~/test.c
 -'  15  31  ~/test.c
 -'  12  4  ~/test.c
 -'  11  12  ~/test.c
 -'  13  36  ~/test.c
 -'  14  11  ~/test.c
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  1  0  ~/QUOTE.txt
--'  31  4  ~/test.c
--'  43  4  ~/test.c
--'  45  21  ~/test.c
+-'  44  3  ~/test.c
+-'  9  0  ~/test.c
+-'  37  6  ~/test.c
+-'  6  0  ~/test.c
+-'  33  4  ~/test.c
+-'  32  4  ~/test.c
+-'  46  21  ~/test.c
+-'  20  4  ~/test.c
+-'  28  4  ~/test.c
+-'  25  0  ~/test.c
+-'  3  0  ~/test.c
+-'  23  4  ~/test.c
+-'  22  31  ~/test.c
+-'  24  4  ~/test.c
+-'  2  0  ~/test.c
+-'  19  4  ~/test.c
+-'  1  0  ~/test.c
+-'  18  12  ~/test.c
+-'  17  12  ~/test.c
+-'  21  11  ~/test.c
+-'  8  12  ~/test.c
+-'  5  12  ~/test.c
+-'  16  4  ~/test.c
+-'  30  5  ~/main.c
+-'  45  4  ~/main.c
+-'  29  5  ~/main.c
+-'  31  5  ~/main.c
+-'  86  3  ~/main.c
+-'  87  3  ~/main.c
+-'  83  2  ~/main.c
+-'  8  0  ~/QUOTE.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/main.c
+	"	53	32
+	^	57	33
+	.	57	32
+	+	99	22
+	+	90	0
+	+	71	2
+	+	70	24
+	+	77	52
+	+	69	33
+	+	77	47
+	+	76	29
+	+	83	6
+	+	86	33
+	+	85	41
+	+	83	6
+	+	90	3
+	+	99	2
+	+	90	27
+	+	92	2
+	+	91	20
+	+	93	0
+	+	89	15
+	+	91	40
+	+	89	15
+	+	99	2
+	+	96	20
+	+	94	0
+	+	95	28
+	+	99	0
+	+	96	3
+	+	100	0
+	+	97	21
+	+	98	32
+	+	47	30
+	+	47	29
+	+	48	0
+	+	44	3
+	+	37	4
+	+	37	12
+	+	20	29
+	+	37	21
+	+	20	5
+	+	28	4
+	+	20	18
+	+	18	4
+	+	17	35
+	+	18	1
+	+	37	23
+	+	37	15
+	+	37	19
+	+	28	9
+	+	20	0
+	+	37	11
+	+	9	0
+	+	7	16
+	+	9	0
+	+	8	0
+	+	37	0
+	+	37	35
+	+	37	18
+	+	33	29
+	+	37	0
+	+	33	0
+	+	37	0
+	+	17	18
+	+	17	12
+	+	17	19
+	+	17	10
+	+	17	10
+	+	33	11
+	+	17	6
+	+	22	4
+	+	21	18
+	+	28	25
+	+	32	27
+	+	33	9
+	+	37	6
+	+	37	17
+	+	33	13
+	+	32	45
+	+	33	30
+	+	57	49
+	+	33	28
+	+	37	0
+	+	27	4
+	+	25	112
+	+	25	22
+	+	26	122
+	+	25	106
+	+	36	4
+	+	34	14
+	+	37	0
+	+	41	0
+	+	40	13
+	+	35	26
+	+	37	5
+	+	36	6
+	+	39	4
+	+	38	49
+	+	31	4
+	+	36	62
+	+	38	61
+	+	57	32
+
+> ~/QUOTE.txt
+	"	8	0
 
 > ~/test.c
 	"	44	3
@@ -222,6 +333,3 @@
 	+	37	9
 	+	9	10
 	+	31	55
-
-> ~/QUOTE.txt
-	"	1	0
