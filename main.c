@@ -9,7 +9,7 @@
 using namespace std;
 
 #define N 7
-
+sem_t mySemaphore;
 void *worker_thread(void *arg)
 {
     printf("This is worker_thread()\n");
@@ -27,20 +27,28 @@ void *worker_thread(void *arg)
      
      threadId = (long)arg;
 
-
-     
-     file.open("QUOTE.txt", std::ios_base::app);
+    int i;
+    for(i=1; i<=N; i++){ 
+       sem_wait(&mySemaphore);
+        file.open("QUOTE.txt", std::ios_base::app);
      
      // if even
-     if(threadId % 2 == 0){
-       file << "Thread id " << threadId << " " << evenQuote << "\r\n";
-     } else {
-       file << "Thread id " << threadId << " " << oddQuote <<  "\r\n";
-     }
-     // if odd
-
-     file.close();
-
+       if(threadId % 2 == 0){
+         file << threadId << " " << evenQuote << "\r\n";
+         cout << "Thread " << threadId << " is running\r\n";
+       } else {
+         file << threadId << " " << oddQuote <<  "\r\n";
+         cout << "Thread " << threadId << " is running\r\n";
+       }
+       file.close();
+       sem_post(&mySemaphore);
+     // sleeptime
+       if(threadId % 2 == 0){
+         sleep(2);
+       } else {
+         sleep(3);
+       }
+     } // close for loop
      //write to the console "Thread <id> is running" followed by a new line
     //close the quote.txt file
     //release the semaphore flag
@@ -58,7 +66,6 @@ int main(){
     file.close();
 
     // create semaphore
-    sem_t mySemaphore;
     sem_init(&mySemaphore, 0, 1); // (your semaphore, [zero is local], initialized semaphore value
 
     // create 7 threads

@@ -1,8 +1,50 @@
-Your Process PID is2849
-Thread id 4 Controlling complexity is the essence of computer programming. --Brian Kernigan
-Thread id 1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
-Thread id 3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
-Thread id 6 Controlling complexity is the essence of computer programming. --Brian Kernigan
-Thread id 5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
-Thread id 2 Controlling complexity is the essence of computer programming. --Brian Kernigan
-Thread id 7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+Your Process PID is 4769
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+4 Controlling complexity is the essence of computer programming. --Brian Kernigan
+2 Controlling complexity is the essence of computer programming. --Brian Kernigan
+6 Controlling complexity is the essence of computer programming. --Brian Kernigan
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+1 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+3 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+5 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
+7 Computer science is no more about computers than astronomy is about telescopes. --Edsger Dikstra
